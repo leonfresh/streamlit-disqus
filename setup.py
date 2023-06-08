@@ -6,7 +6,7 @@ README = (Path(__file__).parent/"README.md").read_text()
 
 setuptools.setup(
     name="streamlit-disqus-darkmode",
-    version="0.1",
+    version="0.11",
     author="leonfresh",
     author_email="",
     description="A streamlit component to embed Disqus in your applications.",
