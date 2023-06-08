@@ -4,10 +4,10 @@ from streamlit.components.v1 import declare_component
 _RELEASE = True
 
 if not _RELEASE:
-    _component_func = declare_component("streamlit_disqus", url="http://localhost:3001")
+    _component_func = declare_component("streamlit_disqus_darkmode", url="http://localhost:3001")
 else:
     _component_path = (Path(__file__).parent/"frontend"/"build").resolve()
-    _component_func = declare_component("streamlit_disqus", path=_component_path)
+    _component_func = declare_component("streamlit_disqus_darkmode", path=_component_path)
 
 
 def st_disqus(
