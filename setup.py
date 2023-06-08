@@ -12,7 +12,7 @@ setuptools.setup(
     description="A streamlit component to embed Disqus in your applications.",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/leonfresh/streamlit-disqus
+    url="https://github.com/leonfresh/streamlit-disqus"
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],
