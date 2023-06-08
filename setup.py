@@ -5,7 +5,7 @@ from pathlib import Path
 README = (Path(__file__).parent/"README.md").read_text()
 
 setuptools.setup(
-    name="streamlit-disqus
+    name="streamlit-disqus"
     version="0.12",
     author="leonfresh",
     author_email="",
